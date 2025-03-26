@@ -19,7 +19,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
     $stmt = $pdo->prepare($query); // Prepare the query
     $stmt->bindParam(':id', $id, PDO::PARAM_INT); // Bind the ID parameter to the query
     $stmt->execute(); // Execute the query
-    $record = $stmt->fetch(PDO::FETCH_ASSOC); // Fetch the record as an associative arrayasdasdasdasdasdasd
+    $record = $stmt->fetch(PDO::FETCH_ASSOC); // Fetch the record as an associative array
 
 
     if (!$record) {
