@@ -14,6 +14,7 @@ $stmt->execute();
 
 // Fetch all the results sdjfklsdjfklsjdfklsjdfklsjfklsjfklsjdfklj
 // another comment
+// 2nd comment
 $result = $stmt->fetchAll();
 ?>
 
