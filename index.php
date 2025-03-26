@@ -10,6 +10,7 @@ $query = "SELECT * FROM myfirsttable";
 $stmt = $pdo->prepare($query);
 
 // Execute the prepared statement
+//LAST NA COMMIT
 $stmt->execute();
 
 // Fetch all the results sdjfklsdjfklsjdfklsjdfklsjfklsjfklsjdfklj
