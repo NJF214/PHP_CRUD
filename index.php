@@ -13,7 +13,11 @@ $stmt = $pdo->prepare($query);
 $stmt->execute();
 
 // Fetch all the results sdjfklsdjfklsjdfklsjdfklsjfklsjfklsjdfklj
+
 // another comment to another
+// another comment
+// 2nd comment
+
 $result = $stmt->fetchAll();
 ?>
 
